@@ -4,7 +4,7 @@
   "description": "A set of basic computer science data structures and algorithms for Lists, Stacks, Queues, Trees, Dictionaries, Hashing, Graphs, Sorting, and Searching.",
   "main": "./lib/basic-algorithms.js",
   "scripts": {
-    "test":	"node_modules/.bin/mocha tests --recursive" 
+    "test": "node_modules/.bin/mocha tests --recursive"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/bobbrady/basic-algorithms",
   "devDependencies": {
+    "chai": "^2.1.2",
     "mocha": "^2.2.1"
   }
 }
