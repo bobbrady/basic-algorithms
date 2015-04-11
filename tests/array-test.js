@@ -1,5 +1,5 @@
 var assert = require('chai').assert,
-    arrayAlg = require('../lib/basic-algorithms');
+    arrayAlg = require('../lib/basic-algorithms').array;
 
 describe('Array algorithms: shiftArrayRight', function() {
 
