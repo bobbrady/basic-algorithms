@@ -2,7 +2,7 @@ var should = require('chai').should(),
     Graph = require('../lib/basic-algorithms').graph.Graph;
 //Graph = require('../lib/graph').Graph;
 
-describe('Graph algorithms: Basic Datastructure Behavior', function() {
+describe('Graph Data Structure Behavior', function() {
 
     var numV = 10;
 
