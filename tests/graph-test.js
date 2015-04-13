@@ -23,8 +23,8 @@ describe('Graph Data Structure Behavior', function() {
     it('should add an edge E to both adjacency lists of connecting vertices V', function() {
         var myGraph = new Graph().withNumberVertices(numV);
         myGraph.addEdge(2, 4);
-        myGraph.getAdjList(2).should.be.deep.equal([4]);
-        myGraph.getAdjList(4).should.be.deep.equal([2]);
+        myGraph.getAdjList(2).should.be.deep.equal([{from: 2, to: 4, weight: undefined}]);
+        myGraph.getAdjList(4).should.be.deep.equal([{from: 4, to: 2, weight: undefined}]);
 		myGraph.getNumberEdges().should.be.equal(1);
     });
 
