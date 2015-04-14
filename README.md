@@ -1,5 +1,5 @@
 # Data Structures and Algorithms in JavaScript
-Basic data structures and algorithms implemented as a Node.js package but can also be used as-is in the browser.
+Basic data structures and algorithms JavaScript implementations that can be used both as a Node.js package and a browser library.
 
 The data structures and algorithms were implemented from psuedo code found in various texts given below.  The particular style of an algorithm was selected by big-O performance and ease of understanding/coding (e.g, Prim's MST algorithm with node weight key and predecessor arrays).
 
