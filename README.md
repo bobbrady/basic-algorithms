@@ -11,6 +11,7 @@ The data structures and algorithms were implemented from psuedo code found in va
 
 * Install Node.js
 * Clone this repo
+* Run `npm install`
 * Place scripts where Node's require can find it
 * Require the data structures and algorithm functions you need
 * Read and run the tests to see how it works
