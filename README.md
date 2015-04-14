@@ -1,6 +1,12 @@
 # Data Structures and Algorithms in JavaScript
 Basic data structures and algorithms implemented as a Node.js package but can also be used as-is in the browser.
 
+The data structures and algorithms were implemented from psuedo code found in various texts given below.  The particular style of an algorithm was selected by big-O performance and ease of understanding/coding (e.g, Prim's MST algorithm with node weight key and predecessor arrays).
+
+* [Algorithms 4Ed by Sedgewick](http://www.amazon.com/Algorithms-4th-Edition-Robert-Sedgewick/dp/032157351X/ref=pd_sim_b_12?ie=UTF8&refRID=1QRCYT69X2QVASG6RHWH "Algorithms 4Ed by Sedgewick")
+* [Data Structures and Algorithms in Java by LaFlore](http://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539/ref=sr_1_sc_1?s=books&ie=UTF8&qid=1429019878&sr=1-1-spell&keywords=Algorithms+laflore "Data Structures and Algorithms in Java by LaFlore")
+* [Algorithms in a Nutshell by Heinman](http://www.amazon.com/Algorithms-Nutshell-OReilly-George-Heineman-ebook/dp/B0043D2EGI/ref=sr_1_1?s=books&ie=UTF8&qid=1429019949&sr=1-1&keywords=Algorithms+in+a+nutshell "Algorithms in a Nutshell by Heinman")
+
 ## Usage
 
 * Install Node.js
