@@ -1,5 +1,5 @@
 var should = require('chai').should(),
-    Graph = require('../lib/basic-algorithms').graph.Graph;
+    Graph = require('../lib/basic-algorithms').graph.Graph,
 graphSearch = require('../lib/basic-algorithms').graphSearch;
 
 describe('Graph Search algorithms: Depth First', function() {
