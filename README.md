@@ -47,7 +47,7 @@ $ node
 ```
 ## Example Usage with Mocha-Chai Test
 ```javascript
-ar should = require('chai').should(),
+var should = require('chai').should(),
     Graph = require('../lib/basic-algorithms').graph.Graph,
 graphSearch = require('../lib/basic-algorithms').graphSearch;
 
