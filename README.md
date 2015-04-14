@@ -30,7 +30,21 @@ $ node
   node: { Node: [Function], deleteNode: [Function] } }
 > 
 ```
-
+## Read the Annotated Code to Learn the API
+```javascript
+/*
+ * MinSpanningTree: Wrapper object containing the Minimum Spanning Tree (MST)
+ * results for a graph: predecessor array and edge weights array.
+ *
+ * @constructor
+ * @param {Array} pred, the predecessor array of vertices
+ * @param {Array} key, the final array of edge weights keyed by vertex logical id
+ */
+    exports.MinSpanningTree = function(pred, key) {
+        this.predecessors = pred;
+        this.weights = key;
+    };
+```
 ## Example Usage with Mocha-Chai Test
 ```javascript
 ar should = require('chai').should(),
